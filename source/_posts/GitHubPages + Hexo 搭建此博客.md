@@ -10,13 +10,19 @@ GitHubPages 是 GitHub 公司上传在 [github](https://github.com) 上的工程
 
 比如，我把搭建改网站的主题 fork 到我在自己的 github 网站  [uniapp10/hexo-theme-BlueLake](https://github.com/uniapp10/hexo-theme-BlueLake) ，打开后你会看到如下效果：
 
-[ProjectPages](http://p3gaf3kiq.bkt.clouddn.com/ProjectPages0.png)
+![ProjectPages](http://p3gaf3kiq.bkt.clouddn.com/ProjectPages0.png)
+
+
 
 展示眼前的是一堆代码，给人的第一感觉是抽象，继而迷茫。但是如果我给它加上 GitHubPages ，变成[uniapp10/hexo-theme-BlueLake](http://unicoinapp.top/hexo-theme-BlueLake/) ，打开后变成如下效果：
 
-[ProjectPages](http://p3gaf3kiq.bkt.clouddn.com/ProjectPages.png)
 
-是不是耳目一新，瞬间有种如浴春风的快感？因为我在副标题中明确指出了该工程是——一个简单的、能够在不同设备运行的 、基于 hexo 框架的主题。
+
+![ProjectPages](http://p3gaf3kiq.bkt.clouddn.com/ProjectPages.png)
+
+
+
+是不是有种耳目一新，瞬间有种如浴春风的快感？因为我在副标题中明确指出了该工程是——一个简单的、能够在不同设备运行的 、基于 hexo 框架的主题。
 
 作为封面仅仅是 GitHubPages 的一种使用场景，使用它还可以为工程封面指定自定义域名，更重要的是可以创建自己的静态  Blog 网站，而且统统免费，简直不能太好用。更详细的介绍可以在官方的 [GitHubPages](https://pages.github.com/) 中找到。
 
@@ -34,11 +40,17 @@ GitHubPages 是 GitHub 公司上传在 [github](https://github.com) 上的工程
 
 GitHubPages 入口从工程设置中可以找到：
 
-[GitHubPages](http://p3gaf3kiq.bkt.clouddn.com/GitPages0.png)
+![GitHubPages](http://p3gaf3kiq.bkt.clouddn.com/GitPages0.png)
 
-[GitHubPages](http://p3gaf3kiq.bkt.clouddn.com/GitPages.png)
+---
 
-[GitHub官方推荐Blog框架](http://p3gaf3kiq.bkt.clouddn.com/GitBlog.png)
+
+
+![GitHubPages](http://p3gaf3kiq.bkt.clouddn.com/GitPages.png)
+
+---
+
+![GitHub官方推荐Blog框架](http://p3gaf3kiq.bkt.clouddn.com/GitBlog.png)
 
 从 GitHubPages 底部可以看出，官网是推荐使用 [Jekyll框架] （https://jekyllrb.com/docs/quickstart/）来搭建个人Blog，但是 Jekyll 全部都是英文，所以英文不是障碍的友人可以选择，偷懒的我选择了易读的汉化 [hexo框架](https://hexo.io/zh-cn/docs/index.html) 。
 
@@ -46,11 +58,11 @@ GitHubPages 入口从工程设置中可以找到：
 
 登录自己的 gitHub 账号，新建工程：
 
-[新建GitHub工程](http://p3gaf3kiq.bkt.clouddn.com/Git%E4%BB%93%E5%BA%93.png)
+![新建GitHub工程](http://p3gaf3kiq.bkt.clouddn.com/Git%E4%BB%93%E5%BA%93.png)
 
 工程名称有严格的限制，具体命名要求可以在 [官网文档](https://help.github.com/articles/user-organization-and-project-pages/) 找到。
 
-[命名要求]http://p3gaf3kiq.bkt.clouddn.com/Git%E4%BB%93%E5%BA%93%E5%90%8D.png
+![命名要求](http://p3gaf3kiq.bkt.clouddn.com/Git%E4%BB%93%E5%BA%93%E5%90%8D.png)
 
 ###### 安装Hexo
 
@@ -64,13 +76,13 @@ GitHubPages 入口从工程设置中可以找到：
 
 首先在新建的 `username.github.io` 工程下新建名称为`CNAME`的文件，添加自己要绑定的域名，我填写的如下：
 
-[CNAME命名](http://p3gaf3kiq.bkt.clouddn.com/%E6%B7%BB%E5%8A%A0CNAME0.png)
+![CNAME命名](http://p3gaf3kiq.bkt.clouddn.com/%E6%B7%BB%E5%8A%A0CNAME0.png)
 
-[CNAME命名](http://p3gaf3kiq.bkt.clouddn.com/%E6%B7%BB%E5%8A%A0CNAME.png)
+![CNAME命名](http://p3gaf3kiq.bkt.clouddn.com/%E6%B7%BB%E5%8A%A0CNAME.png)
 
 域名可以在国内的服务商处购买，我在[阿里云](https://www.aliyun.com/)购买的`.top` 域名，售价 2¥ 大洋。各服务商解析方式都差不多，下面以阿里云上的域名解析为例：
 
-[解析域名](http://p3gaf3kiq.bkt.clouddn.com/%E8%A7%A3%E6%9E%90%E5%9F%9F%E5%90%8D.png)
+![解析域名](http://p3gaf3kiq.bkt.clouddn.com/%E8%A7%A3%E6%9E%90%E5%9F%9F%E5%90%8D.png)
 
 添加 www 和不带 www 的两个解析地址。其中带 www 的域名解析到不带 www 的地址，不带 www 的域名解析到 `username.github.io`。这样可以让从两个地址的访问记录统一到我们的 github 上面的地址，有利于提高网站在 Google 和 Baidu 的排名。
 
