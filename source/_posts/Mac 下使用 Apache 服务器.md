@@ -51,9 +51,15 @@ Mac 电脑下自带了 Apache 服务器，可以通过它在我们本机模拟�
 
 Mac 中的 Apache 服务器默认处于关闭状态，它在本机的安装目录为 `/private/etc/apache2` 。
 
-打开配置文件 `httpd.conf` ，去掉 `Include /private/etc/apache2/extra/httpd-vhosts.conf` 前的 # ， 启动虚拟机服务。
+打开配置文件 `httpd.conf` ，去掉 `Include /private/etc/apache2/extra/httpd-vhosts.conf` 前的 # ， 启动虚拟机服务。添加监听端口， 比如 `8002`：
 
-打开文件 `/private/etc/apache2/extra/httpd-vhosts.conf` ，可以看到默认打开了 80 端口。我们可以手动添加服务器监听端口，比如监听端口 8002， 添加如下代码：
+```
+Listen 8002
+```
+
+
+
+打开文件 `/private/etc/apache2/extra/httpd-vhosts.conf` ，可以看到默认打开了 80 端口。我们可以手动添加和 `httpd-vhosts.conf` 文件中相匹配的监听端口 8002， 添加如下代码：
 
 ```
 <VirtualHost *:8002>
